@@ -4,6 +4,7 @@
     <list default="true" id="31afa097-e9cf-4fea-9357-7fb829722097" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,7 +32,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Zaawansowany HTML/ONL_FER_W_05_Zaawansowany_HTML_i_CSS/04_Dzien_2_-_Praca_domowa/03_Zadanie_3/css/style.css" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Zaawansowany HTML/ONL_FER_W_05_Zaawansowany_HTML_i_CSS/03_Dzien_2/02_Box_sizing/02_Zadanie_2/index.html" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -48,7 +49,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1612083143821</updated>
-      <workItem from="1612083144951" duration="34998000" />
+      <workItem from="1612083144951" duration="41735000" />
+      <workItem from="1612207552415" duration="9307000" />
+      <workItem from="1612256260313" duration="27362000" />
     </task>
     <servers />
   </component>
@@ -65,5 +68,6 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>
