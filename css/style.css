@@ -298,81 +298,40 @@ span {
     width: 50px;
     border-radius: 8px;
     box-shadow: 0 1px 6px rgba(255, 0, 0, 0.3);
-} /*  koniec sekcji z service */
-
-/*
-.section-form {
-
-
 }
-.section-article {
-    display: flex;
-    flex-direction: row;
-    gap: 10px;
-    margin: 0 231px 30px 231px;
+/*sekcja z contact*/
 
-}
-.section-photo img {
-    width: 444px;
-    height: 317px;
-}*/
-
-/* CONTACT FORM*/
-.title-contact-title {
+.contact-title {
     display: flex;
     justify-content: center;
-    margin-top: 50px;
-    margin-bottom: 40px;
-    height: 47px;
+    align-items: center;
     text-transform: uppercase;
+    font-family: "Nunito Sans", sans-serif;
+    margin-bottom: 30px;
+    margin-top: 30px;
     font-size: 35px;
     font-weight: bold;
-    font-family: "Nunito Sans", cursive;
+
 }
-.title-contact-title::before,
-.title-contact-title::after {
+.contact-title::before,
+.contact-title::after {
     content: "";
     display: block;
     height: 3px;
     background: red;
     width: 50px;
-    margin: 15px 5px 10px 5px;
     border-radius: 8px;
     box-shadow: 0 1px 6px rgba(255, 0, 0, 0.3);
+    margin: 0 5px 0 5px;
 }
-
-.form-contact {
-    display: flex;
-
-
-
-}
-.contact-image img {
-    width: 444px;
-    height: 317px;
-}
-.contatct-section .container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: nowrap;
-}
-.contact-section .container:first-child {
-    flex-direction: column;
-}
-.contact-section {
+.contact {
     margin-bottom: 80px;
-
-
 }
-.contact-section-content {
+.contact-content {
     display: flex;
-
 }
-
 .contact-image {
     margin-right: 20px;
-
 }
 
 .contact-form form {
@@ -400,7 +359,7 @@ textarea {
 textarea:focus,
 [type="checkbox"] {
     border: 1px solid red;
-    box-shadow: #FF00004D;
+    box-shadow: 0 3px 6px darkgrey;
 }
 textarea {
     min-height: 140px;
@@ -408,7 +367,7 @@ textarea {
 [type="checkbox"] + span {
     width: 22px;
     height: 22px;
-    border: 1px solid red;
+    border: 1px solid #D1D1D1;
     border-radius: 8px;
     display: block;
     flex-shrink: 0;
@@ -425,7 +384,7 @@ textarea {
 }
 .checkbox-text {
     font-size: 10px;
-    font-weight:lighter;
+    font-weight: lighter;
     color: #B2B2B2;
     flex-shrink: 1;
 }
@@ -438,10 +397,10 @@ textarea {
     display: flex;
 }
 .send-btn {
-    padding: 10px 29px;
-    background-color: white;
-    color: gray;
-    border: 1px solid gray;
+    padding: 10px 40px;
+    background-color: transparent;
+    color: red;
+    border: 1px solid red;
     border-radius: 40px;
     text-transform: uppercase;
     font-size: 14px;
@@ -451,9 +410,8 @@ textarea {
 .send-btn:hover {
     color: red;
     border: 1px solid red;
-    box-shadow: 0 3px 6px rgba(255, 0, 0, 0.3);
+    box-shadow: red;
 }
-
 
 .page-footer {
     height: 233px;
@@ -504,5 +462,9 @@ textarea {
     margin-top: -15px;
     display: flex;
     justify-content: flex-end;
+    margin-right: 50px;
 
+}
+.contact-content {
+    display: flex;
 }
